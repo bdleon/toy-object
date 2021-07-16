@@ -70,12 +70,22 @@ const ball = {
 }
 
 toys.push(toyCar,ball);
-console.log(toys);
+// console.log(toys);
+// for (const toy of toys) {
+
+//     toy.price = toy.price * 1.05;
+//     toy.price = toy.price.toFixed(2);
+//     console.log(`The ${toy.name} costs ${toy.price} at leonids toy store.`)
+    
+    
+// };
+
+const toyToFind  = 2;
 for (const toy of toys) {
 
+    if(toy.id === toyToFind){
     toy.price = toy.price * 1.05;
     toy.price = toy.price.toFixed(2);
-    console.log(`The ${toy.name} costs ${toy.price} at leonids toy store.`)
-    
-    
-};
+    console.log(`The ${toy.name} costs ${toy.price} at leonids toy store.`)}
+        
+    };
