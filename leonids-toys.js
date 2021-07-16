@@ -71,5 +71,8 @@ const ball = {
 
 toys.push(toyCar,ball);
 console.log(toys);
-// for (const toy of toys) {
-//     console.log(toy.name)};
+for (const toy of toys) {
+    console.log(`The ${toy.name} costs ${toy.price} at leonids toy store.`)
+    
+    
+};
